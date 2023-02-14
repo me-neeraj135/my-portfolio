@@ -6,7 +6,8 @@ import Education from "./Education";
 import Skills from "./Skills";
 import Achievement from "./Achievement";
 import Experience from "./Experience";
-
+import { resume } from "../../assets/index";
+import { AiOutlineCloudDownload } from "react-icons/ai";
 const Resume = () => {
   const [educationData, setEducationData] = useState(true);
   const [skillData, setSkillData] = useState(false);
@@ -62,21 +63,24 @@ const Resume = () => {
           >
             Experience
           </li>
-          <li
-            onClick={() =>
-              setEducationData(false) &
-              setSkillData(false) &
-              setExperienceData(false) &
-              setAchievementData(true)
-            }
-            className={`${
-              achievementData
-                ? "border-designColor rounded-lg"
-                : "border-transparent"
-            } resumeLi`}
-          >
-            Achievements
-          </li>
+          <a href={resume} Download={resume}>
+            <li
+              onClick={() =>
+                setEducationData(false) &
+                setSkillData(false) &
+                setExperienceData(false) &
+                setAchievementData(true)
+              }
+              className={`${
+                achievementData
+                  ? "border-designColor rounded-lg"
+                  : "border-transparent"
+              } resumeLi`}
+            >
+              Download Resume-
+              <AiOutlineCloudDownload />
+            </li>
+          </a>
         </ul>
       </div>
       {educationData && <Education />}

@@ -14,6 +14,7 @@ import testimonialTwo from "./images/testimonial/testimonialTwo.png";
 import quote from "./images/testimonial/quote.png";
 
 import contactImg from "./images/contact/contactImg.png";
+import resume from "./images/resume/neeraj_resume.pdf";
 
 export {
   logo,
@@ -25,4 +26,5 @@ export {
   testimonialTwo,
   quote,
   contactImg,
+  resume,
 };

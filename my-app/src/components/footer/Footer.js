@@ -16,15 +16,27 @@ const Footer = () => {
       <div className="w-full h-full flex flex-col gap-8">
         <img className="w-32" src={logo} alt="logo" />
         <div className="flex gap-4">
-          <span className="bannerIcon">
-            <FaInstagram />
-          </span>
-          <span className="bannerIcon">
-            <FaTwitter />
-          </span>
-          <span className="bannerIcon">
-            <FaLinkedinIn />
-          </span>
+          <a
+            href="https://www.instagram.com/insta.neeraj.rajpoot/"
+            target="_blank"
+          >
+            <span className="bannerIcon">
+              <FaInstagram />
+            </span>
+          </a>
+          <a href="https://twitter.com/Neeraj945436" target="_blank">
+            <span className="bannerIcon">
+              <FaTwitter />
+            </span>
+          </a>
+          <a
+            href="https://www.linkedin.com/in/neeraj-rajpoot-107177225/"
+            target="_blank"
+          >
+            <span className="bannerIcon">
+              <FaLinkedinIn />
+            </span>
+          </a>
         </div>
       </div>
       <div className="w-full h-full">

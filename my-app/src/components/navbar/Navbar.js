@@ -4,7 +4,7 @@ import React, { useState } from "react";
 import { Link } from "react-scroll";
 import { FiMenu } from "react-icons/fi";
 import { MdClose } from "react-icons/md";
-import { FaFacebookF, FaTwitter, FaLinkedinIn } from "react-icons/fa";
+import { FaInstagram, FaTwitter, FaLinkedinIn } from "react-icons/fa";
 import { logo } from "../../assets/index";
 import { navLinksdata } from "../../constants";
 
@@ -47,9 +47,12 @@ const Navbar = () => {
               <div>
                 <img className="w-32" src={logo} alt="logo" />
                 <p className="text-sm text-gray-400 mt-2">
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Earum soluta perspiciatis molestias enim cum repellat, magnam
-                  exercitationem distinctio aliquid nam.
+                  I am fluent in classics like HTML , CSS, Javascript, NodeJs,
+                  Express And React.Js, My field of interest are building new
+                  Web Technologies And Products And Also using React. Whenever
+                  possible,I also apply my passion for developing products with
+                  React.Js and Modern Javascript Library And Frameworks Like
+                  Node.Js .
                 </p>
               </div>
               <ul className="flex flex-col gap-4">
@@ -77,15 +80,27 @@ const Navbar = () => {
                   Find me in
                 </h2>
                 <div className="flex gap-4">
-                  <span className="bannerIcon">
-                    <FaFacebookF />
-                  </span>
-                  <span className="bannerIcon">
-                    <FaTwitter />
-                  </span>
-                  <span className="bannerIcon">
-                    <FaLinkedinIn />
-                  </span>
+                  <a
+                    href="https://www.instagram.com/insta.neeraj.rajpoot/"
+                    target="_blank"
+                  >
+                    <span className="bannerIcon">
+                      <FaInstagram />
+                    </span>
+                  </a>
+                  <a href="https://twitter.com/Neeraj945436" target="_blank">
+                    <span className="bannerIcon">
+                      <FaTwitter />
+                    </span>
+                  </a>
+                  <a
+                    href="https://www.linkedin.com/in/neeraj-rajpoot-107177225/"
+                    target="_blank"
+                  >
+                    <span className="bannerIcon">
+                      <FaLinkedinIn />
+                    </span>
+                  </a>
                 </div>
               </div>
               <span

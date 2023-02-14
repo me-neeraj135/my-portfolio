@@ -12,6 +12,7 @@ import {
   FaInstagram,
 } from "react-icons/fa";
 import { SiTailwindcss, SiFigma, SiNextdotjs } from "react-icons/si";
+import { DiCss3, DiJsBadge } from "react-icons/di";
 const LeftBanner = () => {
   const [text] = useTypewriter({
     words: ["Professional Coder.", "Full Stack Developer.", "UI Designer."],
@@ -38,9 +39,6 @@ const LeftBanner = () => {
           />
         </h2>
         <p className="text-base font-bodyFont leading-6 tracking-wide">
-          {/* I use animation as a third dimension by which to simplify experiences
-          and kuiding thro each and every interaction. I'm not adding motion
-          just to spruce things up, but doing it in ways that. */}
           I am fluent in classics like HTML , CSS, Javascript, NodeJs, Express
           And React.Js, My field of interest are building new Web Technologies
           And Products And Also using React. Whenever possible,I also apply my
@@ -54,15 +52,27 @@ const LeftBanner = () => {
             Find me in
           </h2>
           <div className="flex gap-4">
-            <span className="bannerIcon">
-              <FaInstagram />
-            </span>
-            <span className="bannerIcon">
-              <FaTwitter />
-            </span>
-            <span className="bannerIcon">
-              <FaLinkedinIn />
-            </span>
+            <a
+              href="https://www.instagram.com/insta.neeraj.rajpoot/"
+              target="_blank"
+            >
+              <span className="bannerIcon">
+                <FaInstagram />
+              </span>
+            </a>
+            <a href="https://twitter.com/Neeraj945436" target="_blank">
+              <span className="bannerIcon">
+                <FaTwitter />
+              </span>
+            </a>
+            <a
+              href="https://www.linkedin.com/in/neeraj-rajpoot-107177225/"
+              target="_blank"
+            >
+              <span className="bannerIcon">
+                <FaLinkedinIn />
+              </span>
+            </a>
           </div>
         </div>
         <div>
@@ -77,10 +87,10 @@ const LeftBanner = () => {
               <SiNextdotjs />
             </span>
             <span className="bannerIcon">
-              <SiTailwindcss />
+              <DiCss3 />
             </span>
             <span className="bannerIcon">
-              <SiFigma />
+              <DiJsBadge />
             </span>
           </div>
         </div>
