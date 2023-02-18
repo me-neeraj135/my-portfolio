@@ -17,12 +17,12 @@ function App() {
       <Navbar />
       <div className="max-w-screen-xl mx-auto">
         <Banner />
-        <Features />
+
         <Projects />
         <Resume />
-        {/* <Testimonial /> */}
+
         <Contact />
-        <Footer />
+
         <FooterBottom />
       </div>
     </div>

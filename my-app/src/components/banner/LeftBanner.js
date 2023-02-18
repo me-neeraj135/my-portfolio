@@ -12,10 +12,11 @@ import {
   FaInstagram,
 } from "react-icons/fa";
 import { SiTailwindcss, SiFigma, SiNextdotjs } from "react-icons/si";
+import { AiFillGithub } from "react-icons/ai";
 import { DiCss3, DiJsBadge } from "react-icons/di";
 const LeftBanner = () => {
   const [text] = useTypewriter({
-    words: ["Professional Coder.", "Full Stack Developer.", "UI Designer."],
+    words: ["Professional Coder.", "Full Stack Developer."],
     loop: true,
     typeSpeed: 20,
     deleteSpeed: 10,
@@ -53,14 +54,19 @@ const LeftBanner = () => {
           </h2>
           <div className="flex gap-4">
             <a
-              href="https://www.instagram.com/insta.neeraj.rajpoot/"
+              href="https://github.com/me-neeraj135"
               target="_blank"
+              rel="noreferrer"
             >
               <span className="bannerIcon">
-                <FaInstagram />
+                <AiFillGithub />
               </span>
             </a>
-            <a href="https://twitter.com/Neeraj945436" target="_blank">
+            <a
+              href="https://twitter.com/Neeraj945436"
+              target="_blank"
+              rel="noreferrer"
+            >
               <span className="bannerIcon">
                 <FaTwitter />
               </span>
@@ -68,6 +74,7 @@ const LeftBanner = () => {
             <a
               href="https://www.linkedin.com/in/neeraj-rajpoot-107177225/"
               target="_blank"
+              rel="noreferrer"
             >
               <span className="bannerIcon">
                 <FaLinkedinIn />

@@ -1,7 +1,8 @@
 /** @format */
 
 import React from "react";
-import { FaInstagram, FaTwitter, FaLinkedinIn } from "react-icons/fa";
+import { FaTwitter, FaLinkedinIn } from "react-icons/fa";
+import { AiFillGithub } from "react-icons/ai";
 import { contactImg } from "../../assets/index";
 
 const ContactLeft = () => {
@@ -32,12 +33,9 @@ const ContactLeft = () => {
       <div className="flex flex-col gap-4">
         <h2 className="text-base uppercase font-titleFont mb-4">Find me in</h2>
         <div className="flex gap-4">
-          <a
-            href="https://www.instagram.com/insta.neeraj.rajpoot/"
-            target="_blank"
-          >
+          <a href="https://github.com/me-neeraj135" target="_blank">
             <span className="bannerIcon">
-              <FaInstagram />
+              <AiFillGithub />
             </span>
           </a>
           <a href="https://twitter.com/Neeraj945436" target="_blank">

@@ -63,7 +63,7 @@ const Resume = () => {
           >
             Experience
           </li>
-          <a href={resume} Download={resume}>
+          <a href={resume} download={resume}>
             <li
               onClick={() =>
                 setEducationData(false) &
@@ -77,7 +77,7 @@ const Resume = () => {
                   : "border-transparent"
               } resumeLi`}
             >
-              Download Resume-
+              Download
               <AiOutlineCloudDownload />
             </li>
           </a>

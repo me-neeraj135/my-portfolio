@@ -4,9 +4,10 @@ import React, { useState } from "react";
 import { Link } from "react-scroll";
 import { FiMenu } from "react-icons/fi";
 import { MdClose } from "react-icons/md";
-import { FaInstagram, FaTwitter, FaLinkedinIn } from "react-icons/fa";
+import { FaTwitter, FaLinkedinIn } from "react-icons/fa";
 import { logo } from "../../assets/index";
 import { navLinksdata } from "../../constants";
+import { AiFillGithub } from "react-icons/ai";
 
 const Navbar = () => {
   const [showMenu, setShowMenu] = useState(false);
@@ -80,12 +81,9 @@ const Navbar = () => {
                   Find me in
                 </h2>
                 <div className="flex gap-4">
-                  <a
-                    href="https://www.instagram.com/insta.neeraj.rajpoot/"
-                    target="_blank"
-                  >
+                  <a href="https://github.com/me-neeraj135" target="_blank">
                     <span className="bannerIcon">
-                      <FaInstagram />
+                      <AiFillGithub />
                     </span>
                   </a>
                   <a href="https://twitter.com/Neeraj945436" target="_blank">
