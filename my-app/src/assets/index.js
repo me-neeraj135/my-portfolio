@@ -1,7 +1,7 @@
 /** @format */
 
 import logo from "./images/logo.png";
-import bannerImg from "./images/bannerImg.png";
+import bannerImg from "./images/neeraj-1.png";
 
 import testimonialOne from "./images/testimonial/testimonialOne.png";
 import testimonialTwo from "./images/testimonial/testimonialTwo.png";

@@ -40,11 +40,13 @@ const LeftBanner = () => {
           />
         </h2>
         <p className="text-base font-bodyFont leading-6 tracking-wide">
-          I am fluent in classics like HTML , CSS, Javascript, NodeJs, Express
-          And React.Js, My field of interest are building new Web Technologies
-          And Products And Also using React. Whenever possible,I also apply my
-          passion for developing products with React.Js and Modern Javascript
-          Library And Frameworks Like Node.Js .
+          I am a passionate Full Stack Web Developer . I am proficient in
+          front-end technologies such as HTML, CSS, and JavaScript, and has
+          experience with modern frameworks like React and I am also familiar
+          with back-end technologies like Node.js and Express.js and comfortable
+          working with databases like MongoDB. I am a quick learner, a team
+          player, and always eager to learn new technologies to further enhance
+          my skills as a Full Stack Web Developer.
         </p>
       </div>
       <div className="flex flex-col xl:flex-row gap-6 lgl:gap-0 justify-between">
