@@ -9,7 +9,7 @@ import testimonialTwo from "./images/testimonial/testimonialTwo.png";
 import quote from "./images/testimonial/quote.png";
 
 import contactImg from "./images/contact/contactImg.png";
-import resume from "./images/resume/neeraj_resume.pdf";
+import resume from "./images/resume/neeraj-resume.pdf";
 
 import activityTracker from "./images/projects/activity-tracker.png";
 import blogApp from "./images/projects/blogapp.png";
