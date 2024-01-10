@@ -61,7 +61,7 @@ const Navbar = () => {
                 </p>
               </div>
               <ul className="flex flex-col gap-4">
-                {navLinksdata.map(item => (
+                {navLinksdata.map((item) => (
                   <li
                     key={item._id}
                     className="text-base font-normal text-gray-400 tracking-wide cursor-pointer hover:text-designColor duration-300"

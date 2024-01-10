@@ -13,6 +13,8 @@ import {
   nodeEventApp,
   nodePodcast,
   nodeShoppingCart,
+  amazonWeb,
+  imdb,
 } from "../../assets/index";
 
 const Projects = () => {
@@ -28,6 +30,26 @@ const Projects = () => {
         />
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-14">
+        <ProjectsCard
+          title="AMAZON WEB"
+          des=" FullStack Application - React js | Node js | Express js | MongoDB
+A dynamic e-commerce platform using React js and MongoDB,
+Showcasing expertise in FullStack development and seamless integration of diverse
+technologies for robust user experiences and secure transactions."
+          src={amazonWeb}
+          live="https://amazonweb-w12y.vercel.app/"
+          github="https://github.com/me-neeraj135/amazonweb"
+        />
+
+        <ProjectsCard
+          title="IMDB APP"
+          des=" This is a React js Application. A dynamic OTT platform.Showcasing experties in FrontEnd development and seamless integration of diverse
+          technologies for robust user experiences and secure transactions."
+          src={imdb}
+          live="https://imdb-clone-mhou.vercel.app/"
+          github="https://github.com/me-neeraj135/IMDB_clone"
+        />
+
         <ProjectsCard
           title="QUIZ APP"
           des=" This is a quiz app created using react . In this app user have to select correct answer of the quiz ."

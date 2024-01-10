@@ -14,24 +14,25 @@ const Education = () => {
       {/* part one */}
       <div>
         <div className="py-6 lgl:py-12 font-titleFont flex flex-col gap-4">
-          <p className="text-sm text-designColor tracking-[4px]">2010 - 2022</p>
+          {/* <p className="text-sm text-designColor tracking-[4px]">2010 - 2022</p> */}
           <h2 className="text-3xl md:text-4xl font-bold">Education Quality</h2>
         </div>
         <div className="mt-6 lgl:mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
           <ResumeCard
             title="Full Stack Web Development"
             subTitle="AltCamus(BootCamp)"
-            des="The training provided by AltCampus's mentors in order to develope full-stack websites and build the things."
+            des="Full stack development refers to the end-to-end application software development, including the front end and back end. The front end consists of the user interface, and the back end takes care of the business logic and application workflows.."
+          />
+
+          <ResumeCard
+            title="React-Native"
+            subTitle="Coursera By Meta"
+            des="In this module, the basic structure and use of React Native is explored and demonstrated. You will learn to build a single page React Native app and style it using basic components such as View, Text and StyleSheet."
           />
           <ResumeCard
-            title="B.com - Accounting, Auditing, Marketing mgmt. Indirect Tax, Industrial law"
-            subTitle="Bundelkhand University  (2010 - 2013)"
-            des="Higher education is tertiary education leading to award of an academic degree. Higher education, also called post-secondary education."
-          />
-          <ResumeCard
-            title="Secondary School Education"
-            subTitle="BNV Inter College (2010)"
-            des="Secondary education or post-primary education covers two phases on the International Standard Classification of Education scale."
+            title="Bachelor of Commerce."
+            subTitle="Bundelkhand University"
+            des="Bachelor of Commerce is a degree in business, management, economics or accounting,."
           />
         </div>
       </div>
@@ -39,7 +40,7 @@ const Education = () => {
 
       <div>
         <div className="py-6 lgl:py-12 font-titleFont flex flex-col gap-4">
-          <p className="text-sm text-designColor tracking-[4px]">2010 - 2022</p>
+          {/* <p className="text-sm text-designColor tracking-[4px]">2010 - 2022</p> */}
           <h2 className="text-3xl md:text-4xl font-bold">Job Experience</h2>
         </div>
         <div className="mt-6 lgl:mt-14 w-full  border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
